@@ -5,7 +5,7 @@ title: Projects & Case Studies
 # Projects & Case Studies
 
 ## Working Hours / Work Logger (Django + Automation)
-**What it is:** A Django application for corporate time tracking and analytics, designed to streamline daily work logs and give leadership actionable insights. :contentReference[oaicite:2]{index=2}
+**What it is:** A Django application for corporate time tracking and analytics, designed to streamline daily work logs and give leadership actionable insights. 
 
 **What I built**
 - Employee time entry flow + WorkLog storage (regular vs overtime)
@@ -33,7 +33,7 @@ title: Projects & Case Studies
 
 ---
 
-## HR Process Automation (Case Study — private)
+## HR Process Automation (Case Study - private)
 **Goal:** Automate the HR lifecycle from candidate selection to onboarding.
 
 **What I delivered**
@@ -46,7 +46,7 @@ title: Projects & Case Studies
 
 ---
 
-## Payment System Automation (Case Study — private)
+## Payment System Automation (Case Study - private)
 **Goal:** Automate check-in + payment calculation with centralized reporting.
 
 **What I delivered**
