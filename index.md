@@ -7,6 +7,10 @@ title: Mohamed Hussien - Backend & Process Automation
 
 I build backend systems and automate business operations-turning manual workflows into reliable, measurable processes using Django and integrations like ClickUp, Slack, HubSpot, and Zapier.
 
+<div dir="rtl">
+أؤتمت عمليات الأعمال عبر بناء خدمات Backend وربط الأدوات مثل Zapier وClickUp وSlack وأحوّل سير العمل اليدوي إلى عمليات موثوقة قابلة للقياس.
+</div>
+
 **What I’m best at**
 - Backend development: Django, REST APIs, PostgreSQL
 - Workflow automation: Zapier, webhooks, Slack/ClickUp/Sheets integrations
