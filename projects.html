@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Projects — Mohamed Hussien</title>
+  <meta name="description" content="Backend & automation projects and case studies." />
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="index.html">Mohamed<span>.</span></a>
+      <nav class="nav-links">
+        <a class="active" href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+        <a class="btn small" href="contact.html">Hire me</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="section">
+    <div class="container">
+      <div class="section-head">
+        <h1>Projects & Case Studies</h1>
+        <p class="muted">Clear outcomes, architecture thinking, and integrations — even without screenshots.</p>
+      </div>
+
+      <div class="stack">
+        <article class="card" id="work-logger">
+          <h2>Working Hours / Work Logger (Django + Automation)</h2>
+          <p><b>What it is:</b> A Django application for corporate time tracking and analytics.</p>
+          <p><b>What I built:</b></p>
+          <ul class="list">
+            <li>Employee time entry + WorkLog storage (regular vs overtime)</li>
+            <li>Admin dashboard with filters + analytics</li>
+            <li>Automation integrations:
+              <ul class="list">
+                <li>ClickUp → auto-create/update projects</li>
+                <li>Slack reminders via Zapier</li>
+              </ul>
+            </li>
+            <li>Deployment setup</li>
+          </ul>
+          <p class="muted"><b>Tech:</b> Django, Python, PostgreSQL, Chart.js, ClickUp API, Zapier (Slack/Sheets)</p>
+          <p><b>Repo:</b> <a href="https://github.com/Mohamed7422/working_hours_detecting" target="_blank" rel="noreferrer">github.com/Mohamed7422/working_hours_detecting</a></p>
+        </article>
+
+        <article class="card" id="hr-eval">
+          <h2>HR Evaluation System (Django + RBAC)</h2>
+          <p><b>What it is:</b> Secure HR evaluations for quarterly/annual reviews with RBAC.</p>
+          <p><b>Highlights:</b></p>
+          <ul class="list">
+            <li>Role-based access control aligned with company hierarchy</li>
+            <li>Secure workflows for evaluations</li>
+            <li>Deployed demo link</li>
+          </ul>
+          <p><b>Repo:</b> <a href="https://github.com/Mohamed7422/hr-eval-sys" target="_blank" rel="noreferrer">github.com/Mohamed7422/hr-eval-sys</a></p>
+          <p><b>Live:</b> <a href="https://hr-eval-sys.vercel.app" target="_blank" rel="noreferrer">hr-eval-sys.vercel.app</a></p>
+        </article>
+
+        <article class="card" id="hr-automation">
+          <h2>HR Process Automation (Case Study — private)</h2>
+          <p><b>Goal:</b> Automate HR lifecycle from candidate selection to onboarding.</p>
+          <p><b>What I delivered:</b></p>
+          <ul class="list">
+            <li>Workflow design: steps, owners, triggers, exceptions</li>
+            <li>Tool integrations (forms/sheets + notifications + task creation)</li>
+            <li>Audit trail + reporting</li>
+            <li>Reduced manual coordination and improved speed/consistency</li>
+          </ul>
+          <p class="muted"><b>Tech:</b> Zapier, webhooks, Slack, ClickUp (+ optional HubSpot)</p>
+          <p class="muted"><i>Code is private — details available on request.</i></p>
+        </article>
+
+        <article class="card" id="payment-automation">
+          <h2>Payment System Automation (Case Study — private)</h2>
+          <p><b>Goal:</b> Automate check-in + payment calculation with centralized reporting.</p>
+          <p><b>What I delivered:</b></p>
+          <ul class="list">
+            <li>Automation logic + data flow design</li>
+            <li>Slack notifications + reduced calculation errors</li>
+            <li>Centralized visibility for operations</li>
+          </ul>
+          <p class="muted"><b>Tech:</b> Custom web app + Zapier + Slack</p>
+          <p class="muted"><i>Code is private — details available on request.</i></p>
+        </article>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container foot">
+      <p class="muted">© <span id="year"></span> Mohamed Hussien</p>
+      <div class="foot-links">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/main.js"></script>
+</body>
+</html>
