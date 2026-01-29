@@ -1,5 +1,5 @@
 ---
-title: Mohamed Hussien — Backend & Process Automation
+title: Mohamed Hussien - Backend & Process Automation
 ---
 
 # Mohamed Hussien
